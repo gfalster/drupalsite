@@ -1,0 +1,23 @@
+# core/modules/system/tests/modules/router_test_directory/router_test.routing.yml
+
+hot_stocks.userform:
+  path: "/hotstocks/clientform"
+  defaults:
+    _form: '\Drupal\hot_stocks\Form\ClientForm'
+    _title: "Client Information"
+  requirements:
+    _permission: "access content"
+hot_stocks.userpref:
+  path: "/hotstocks/userpref"
+  defaults:
+    _form: '\Drupal\hot_stocks\Form\UserPref'
+    _title: "User Preferences"
+  requirements:
+    _permission: "access content"
+hot_stocks.configform:
+  path: "/admin/config/hotstocks"
+  defaults:
+    _title: "Hot Stocks Admin Configuration"
+    _form: '\Drupal\hot_stocks\Form\HotStocksConfigForm'
+    requirements:
+      _permission: "access content"

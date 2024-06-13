@@ -1,0 +1,12 @@
+miniorange_oauth_client_customer_id: ''
+miniorange_oauth_client_customer_admin_token: ''
+miniorange_oauth_client_customer_api_key: ''
+miniorange_oauth_client_username_attribute: ''
+miniorange_oauth_client_status: ''
+miniorange_oauth_client_customer_admin_phone: null
+miniorange_oauth_client_tx_id: null
+miniorange_oauth_client_customer_admin_password: ''
+miniorange_oauth_client_base_url : ''
+miniorange_oauth_send_with_header_oauth: false
+miniorange_oauth_send_with_body_oauth: true
+miniorange_oauth_enable_login_with_oauth: true

@@ -1,0 +1,7 @@
+<?php
+/**
+ * Implements hook_install().
+ */
+function oauth_login_oauth2_install() {
+    drupal_flush_all_caches();
+}

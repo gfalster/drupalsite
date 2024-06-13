@@ -1,0 +1,15 @@
+block.settings.hot_stocks_hot_stocks:
+  type: block_settings
+  label: 'Hot Stocks block'
+  mapping:
+    example:
+      type: string
+      label: Example
+
+field.formatter.settings.hot_stocks_hot_stocks:
+  type: mapping
+  label: Hot Stocks formatter settings
+  mapping:
+    foo:
+      type: string
+      label: Foo
